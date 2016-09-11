@@ -1,0 +1,496 @@
+/*公用*/
+.comwidth {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr-10{height: 10px;}
+.line{
+  border-bottom: 2px solid #3be819;
+  margin-top: 14px;
+}
+.line2{
+  border-bottom: 2px solid #ff3228;
+  margin-top: 5px;
+  width: auto;
+  min-width: 1100px;
+}
+/* 顶部横条 */
+.topBar{background-color: #f1f1f1;
+        height: 30px;
+        line-height: 30px;
+        min-width: 1100px;
+}
+#triangle{
+  background: url(../icon/rotate.png)left center no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-top: 2px;
+}
+.topBarLeft{
+  position: relative;
+}
+.topBarLeft span{
+  display: inline-block;
+  width: 44px;
+}
+.where{
+  position: absolute;
+  top: 29px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  padding: 10px 0 10px 10px;
+  width: 298px;
+  z-index: 100;
+}
+.where li{
+  background: none;
+  float: left;
+  width: 48px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.topBarRight ul li{float: left;
+                   padding-left: 9px;
+}
+.topBarRight ul li a:hover{color: red;}
+.topBarRight .spacer{width: 1px;
+                     height: 12px;
+                     margin-top: 9px;
+                     margin-left: 4px;
+                     padding: 0;
+                     background: #ddd;
+}
+/*logo横条*/
+.logoBar{height: 130px;
+         min-width: 1100px;
+         background-color: #fff;
+}
+.logo{display: block;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top:30px;
+      padding-left: 10px;
+}
+.logo img{
+  width: 80px;
+  height: 20px;
+}
+.logo a{color: #fff;}
+.searchBox {
+            width: 430px;
+            margin-top: -30px;
+            padding-left: 320px;
+}
+.searchText{width: 350px;
+            height: 36px;
+            padding: 0 5px;
+            background-color: #fff;
+            border:2px solid red;
+}
+.searchBtn{width: 66px;
+           height: 40px;
+           font-size: 14px;
+           font-family: "microsoft  YaHei", "微软雅黑";
+           background-color: #ff2832;
+           color: #fff;
+           border: none;
+           cursor: pointer;
+}
+.shoppingCar {
+  width: 145px;
+  height: 36px;
+  background-color: #ff2832;
+  margin-top: -25px;
+  font: 14px/36px "Microsoft YaHei", "微软雅黑";
+  color: #fff;
+}
+.shopText {
+  color: #fff;
+  width: 87px;
+  border-right: #e27a00 solid 1px;
+  background: url(../icon/shoppingCar.png)5px center no-repeat;
+  text-indent: 40px;
+}
+.shopNum {
+  width: 27px;
+  height: 36px;
+  border-left: #ff9c01 solid 1px;
+  background: url(../icon/arrow.jpg)35px center no-repeat;
+  text-align: right;
+  padding-right: 29px;
+}
+.logoBar{border-bottom: 4px solid #ff2832}
+.shopList{margin-top: 28px;
+}
+.shopList .all{display: inline-block;
+               width: 120px;
+               background-color:#ff2832;
+               margin-top:-4px;
+               padding-left: 30px;
+               position: relative;
+}
+.all::after {content:url(../icon/shopList.png);
+            position: absolute;
+            right: 10px;
+            top: 9px;
+}
+.shopList li{float: left;
+             padding: 0 35px;
+}
+.shopList li +li{padding: 0 45px}
+.shopList li +li a:hover{color:#ff2832;}
+.shopList li a{font: 14px/40px "Microsoft Yahei";
+               color: #000;
+}
+.shopList .all a{font-size: 15px;
+                 color: #fff;
+}
+/*主体左侧商品项目表*/
+.shopItem{width: 185px;
+          background-color: #f1f1f1;
+          float: left;
+          margin-top: -4px;
+          position: relative;
+}
+.shopItem li{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 25px;
+  padding-top: 0px;
+}
+.navItem{
+  background-color: #fff;
+  border-right: 3px solid #fff;
+}
+.shopItem ul li:nth-child(15){padding-bottom: 6px}
+.shopItem li a:hover{color:#ff2832; }
+.newItem{
+  position: absolute;
+  left: 185px;
+  top: 0;
+  border:2px solid #ff2832;
+  border-top: none;
+  background-color: #fff;
+  width: 913px;
+  z-index: 100;
+}
+.itemTitle a{
+  color: #fff;
+  background-color: #a2a2a2;
+  margin-top: 18px;
+  margin-left: 27px;
+  padding-left: 5px;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  width: 68px;
+}
+.itemTitle a::after{
+  content:url(../icon/item.png);
+            position: absolute;
+            right: 0px;
+            top: 1px;
+}
+.itemTitle a:nth-child(3)::after{
+  content:url(../icon/item.png);
+            position: absolute;
+            left: 60px;
+            top: 1px;
+}
+.itemTitle a:hover{
+  background-color: red;
+}
+.charts{
+    margin-left: 95px;
+    margin-top: -29px;
+    line-height: 26px;
+}
+.charts a{margin-right: 10px;}
+.dottedLine{
+  width: 750px;
+  margin-left: 95px;
+  margin-top: 0px;
+  border-bottom: 1px dotted #CCC;
+}
+/*轮播图*/
+.banner { position: relative;
+          overflow: hidden;
+          margin-left: 12px;
+          margin-top: 11px;
+          width:670px;
+          height: 440px;
+ }
+.banner ul li{float: left;}
+.ad{margin-top: 10px}
+.promotion{
+  width: 218px;
+  border:1px solid #ccc;
+}
+#b04 .arrow { position: absolute; top: 200px;}
+#b04 #al { left: 15px;}
+#b04 #ar { right: 15px;}
+#b04 .dots {
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+#b04 .dots li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #155AD3;
+  color: #fff;
+  cursor: pointer;
+}
+#b04 .dots li+li {
+  margin-left: 5px;
+}
+#b04 .dots .active {
+  background: #fff;
+  color: #155AD3;
+}
+.promotionHead{
+  font-size: 16px;
+  font-family: "microsoft yahei";
+  font-weight: 400;
+  text-indent: 25px;
+  border-bottom: 1px dotted #E8E8E7;
+}
+.promotion dd{padding:5px 25px;
+position: relative;}
+.promotion dd::before{
+  content:url(../icon/promotionIcon.png);
+  position: absolute;
+            left: 5px;
+            top: 8px;
+}
+.promotion dd a:hover{color:#ff2832;}
+.giftCard{
+  width: 218px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.giftCard h3{
+  border-bottom: 1px dotted #E8E8E7;
+  font-size: 16px;
+  font-family: "microsoft yahei";
+  font-weight: 400;
+  text-indent: 25px;
+ }
+.giftCard img{padding-bottom: 1px}
+/*图书推荐区*/
+.bestSellerLeft{
+  width:870px;
+}
+.bestSellerLeft h3{margin-left: 20px;}
+.bestSellerLeft li{
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  padding:5px;
+}
+.bestSellerLeft .bestSellerItem li{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  margin-top: -20px;
+  margin-right: 35px;
+}
+.selected{
+  border-top:2px solid #3be819;
+  border-left:2px solid #3be819;
+  border-right:2px solid #3be819;
+  border-bottom:2px solid #fff;
+  border-radius: 5px 5px 0 0;
+}
+.container{
+  width: 160px;
+  margin-top: 30px;
+  margin-left: 12px
+}
+.container img{
+  display: block;
+}
+.container a:nth-child(2){
+  margin-left: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.container p{
+  margin-left: 20px
+}
+.container p span{
+  margin-right: 10px
+}
+.container a:nth-child(2):hover{
+  color: red;
+  text-decoration: underline;
+}
+.newPrice{
+  color: #ea8010;
+}
+.originalPrice{
+  text-decoration: line-through;
+}
+/*右侧排行榜*/
+.onsale{
+  width: 220px;
+  height: 485px;
+  border:1px solid #bbb;
+  margin-top: 10px;
+}
+.onsaleHead li{
+  float: left;
+  height: 46px;
+  width: 109px;
+  border-right: 1px solid #e6e6e6;
+  text-align: center;
+  color: #464646;
+  font: 16px/46px "Microsoft YaHei";
+  background-color: #f5f5f5;
+  cursor: default;
+  border-bottom: 1px solid #e6e6e6;
+}
+.head{
+  background-color: #fff !important;
+  border-bottom: none !important;
+}
+.item{
+  height: 100px;
+}
+.listWrap li .num{
+  color:red;
+  font-weight: bold;
+  float: left;
+  width: 25px;
+  height: 33px;
+  font: 12px/33px Arial;
+  padding-left: 10px;
+  background: #fff;
+  margin-bottom: -1px;
+  overflow: hidden;
+}
+.bookName{
+  float:left;
+  width: 185px;
+  height:30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.li10{border-bottom:none;}
+.bookImg img{
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: -10px;
+  float: left;
+}
+.item{
+  height: 146px;
+  border-bottom: 1px solid #ccc;
+}
+.name{
+  float: right;
+  margin-top: 16px;
+}
+.name a{line-height: 20px;
+font-size: 14px;
+}
+.name span{
+  display: block;
+  color: #969696;
+  font-size: 12px;
+  width: 110px;
+  text-indent: 15px;
+  padding-bottom: 10px;
+}
+/*推广商品*/
+.goodsHead{
+  margin-left: 0px;
+  color: #ff3228;
+}
+.circle{
+  margin-top: -15px;
+  margin-right: 5px;
+}
+.circle li{
+  float: left;
+  margin-right: 5px;
+  width:10px;
+  height:10px;
+  border-radius:10px;
+  border:1px solid #ccc;
+  background-color: #ccc;
+}
+.on{
+  border: 1px solid #ff2832 !important;
+  background-color: #ff2832 !important;
+}
+.goodsList{
+  width: 1100px;
+}
+.goodsList img{
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+.goodsItem{
+  width: 150px;
+  margin-top: 20px;
+  margin-left:30px;
+  text-align: center;
+}
+.goodsItem a img{margin-bottom: 20px}
+/*footer*/
+.footer{
+  clear: both;
+}
+.footerHead{
+  min-width: 1100px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+  height: 100px;
+}
+.footerHead span{
+  margin: 0 40px;
+  min-width: 1100px;
+}
+.footerHead img{margin-top: 15px}
+.footIcon{
+  margin: 0 auto;
+  width: 1100px;
+}
+.footer i {
+  font-style: normal;
+  margin: 0 5px;
+}
+.footer a {
+  color: #000
+}
+
+.footer a:hover {
+  color: red
+}
+.footer p{text-align: center;
+margin-top: 20px;}
+.web {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
